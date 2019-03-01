@@ -11,3 +11,6 @@ RUN apt-get -y install openjdk-8-jdk
 
 # Install other tools
 RUN apt-get -y install git
+
+# Install library required for running embedded mysql during tests
+RUN apt-get -y install libaio1
