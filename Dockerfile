@@ -13,4 +13,4 @@ RUN apt-get -y install openjdk-8-jdk
 RUN apt-get -y install git
 
 # Install library required for running embedded mysql during tests
-RUN apt-get -y install libaio1 libnuma
+RUN apt-get -y install libaio1 libnuma-dev
